@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string extracomment="，，，">vy的第一个gui窗口</string>
+  </property>
+  <property name="statusTip">
+   <string>这是状态栏</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="statusTip">
+     <string>啦啦啦</string>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actiondakai"/>
+    <addaction name="separator"/>
+    <addaction name="actionsjai"/>
+    <addaction name="separator"/>
+    <addaction name="actionsah"/>
+    <addaction name="actionhsauh"/>
+    <addaction name="separator"/>
+    <addaction name="actionshaj"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>窗体</string>
+    </property>
+    <addaction name="actiondiige"/>
+    <addaction name="actiondierge"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiondakai">
+   <property name="icon">
+    <iconset>
+     <normaloff>../picture/下载.jpeg</normaloff>../picture/下载.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>新建文件</string>
+   </property>
+   <property name="statusTip">
+    <string>新建文件中</string>
+   </property>
+  </action>
+  <action name="actionsjai">
+   <property name="icon">
+    <iconset>
+     <normaloff>../picture/u=3646904594,1239299038&amp;fm=26&amp;gp=0.jpg</normaloff>../picture/u=3646904594,1239299038&amp;fm=26&amp;gp=0.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="statusTip">
+    <string>退出的操作</string>
+   </property>
+  </action>
+  <action name="actionsah">
+   <property name="text">
+    <string>sah </string>
+   </property>
+  </action>
+  <action name="actionhsauh">
+   <property name="text">
+    <string>hsauh </string>
+   </property>
+  </action>
+  <action name="actionshaj">
+   <property name="text">
+    <string>shaj </string>
+   </property>
+  </action>
+  <action name="actiondiige">
+   <property name="text">
+    <string>diige</string>
+   </property>
+  </action>
+  <action name="actiondierge">
+   <property name="text">
+    <string>dierge</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

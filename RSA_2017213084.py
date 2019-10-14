@@ -27,7 +27,7 @@ def generate_cp(x):
 #rsa算法生成公钥，私钥
 def generate_rsa():
     #生成p，q
-    prime = generate_prime_number(15,55)
+    prime = generate_prime_number(15,50)
     p = prime[r.randint(0,len(prime)-1)]
     q = prime[r.randint(0,len(prime)-1)]
 
@@ -62,18 +62,15 @@ def generate_rsa():
         i+=1
     d = i-1
     SK = (d,n)
+    print('p,q,n,hn,e,d：')
     print(p,q,n,hn,e,d)
+    print('公钥和私钥：')
     return[PK,SK]
 
 k = generate_rsa()
 
 print(k)
-
+print(int(m))
+#130663  409
 
 #解密
-x = generate_cp(66)
-y = generate_cp(87)
-print(x)
-print(y)
-print(x-y)
-print(max(x,y))
